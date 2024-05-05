@@ -45,7 +45,7 @@ public class LoginPage extends JFrame implements ActionListener {
             JOptionPane.showMessageDialog(this, "Login Successful!");
 
         } else {
-            JOptionPane.showMessageDialog(this, "Invalid username or password. Please try again.");
+            JOptionPane.showMessageDialog(this, "Invalid username or password, Please try again with correct information.");
         }
     }
 
