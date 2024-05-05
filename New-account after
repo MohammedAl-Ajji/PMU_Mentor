@@ -56,7 +56,6 @@ public class LoginPage extends JFrame implements ActionListener {
             String email = emailField.getText();
             String password = new String(passwordField.getPassword());
 
-            // Example validation - replace with your own authentication logic
             if (email.equals("admin@example.com") && password.equals("admin")) {
                 JOptionPane.showMessageDialog(this, "Login Successful!");
                 // Add code to navigate to next page or perform further actions
@@ -69,7 +68,7 @@ public class LoginPage extends JFrame implements ActionListener {
             String name = nameField.getText();
             String universityEmail = universityEmailField.getText();
 
-            // Example creation of user account - replace with your own logic
+
             UserAccount user = new UserAccount(email, password, name, universityEmail);
             JOptionPane.showMessageDialog(this, "Account created successfully!");
         }
@@ -129,7 +128,7 @@ class UserAccount {
         this.universityEmail = universityEmail;
     }
 
-    @Override
+
     public String toString() {
         return "Email Address: " + email + "\n" +
                "Name: " + name + "\n" +
