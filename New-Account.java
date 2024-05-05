@@ -4,7 +4,7 @@ public class PMUMentor {
     private String email;
     private String password;
 
-    // Constructor
+    
     public PMUMentor(String firstName, String lastName, String email, String password) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -12,7 +12,7 @@ public class PMUMentor {
         this.password = password;
     }
 
-    // Method to create a new account
+   
     public void createNewAccount() {
         System.out.println("Creating new account for " + firstName + " " + lastName);
         System.out.println("Email: " + email);
@@ -20,7 +20,7 @@ public class PMUMentor {
         System.out.println("Account created successfully!");
     }
 
-    // Getters and setters
+   
     public String getFirstName() {
         return firstName;
     }
@@ -54,7 +54,7 @@ public class PMUMentor {
     }
 }
 
-// Example usage:
+
 public class Main {
     public static void main(String[] args) {
         PMUMentor mentor = new PMUMentor("John", "Doe", "johndoe@example.com", "password123");
